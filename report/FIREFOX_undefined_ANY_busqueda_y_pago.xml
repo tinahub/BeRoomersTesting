@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="6">
+
+  <testsuite name="busqueda_y_pago"
+    errors="0" failures="0" hostname="" id="" package="busqueda_y_pago" skipped="0"
+    tests="6" time="143.8" timestamp="Fri, 31 Mar 2017 15:45:29 GMT">
+  
+    <testcase name="Abrir página Beroomers" classname="busqueda_y_pago" time="25.98" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Buscar habitación" classname="busqueda_y_pago" time="24.70" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Filtrar habitación" classname="busqueda_y_pago" time="31.39" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Seleccionar habitación" classname="busqueda_y_pago" time="5.160" assertions="0">
+    </testcase>
+  
+    <testcase name="Ir a página de reserva" classname="busqueda_y_pago" time="13.86" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Reservar habitación" classname="busqueda_y_pago" time="42.71" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

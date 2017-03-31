@@ -53,15 +53,26 @@ module.exports = {
     'Seleccionar habitación': function (browser) {
     browser
         .click('.ProductCard:nth-of-type(1)')
-        .waitForElementVisible('body',3000)
-        .pause(3000);
-    }
+        .pause(5000);
+    },
+
+     'Ir a página de reserva': function(browser){
+    browser
+        .window_handles(
+            function(result){
+                var child = result.value[1];
+                browser.switchWindow(child);
+
+                this.click('.BookingForm-actions-bookNow');
+                this.pause(4000);
+                this.waitForElementVisible('body',3000);
+                this.pause(2000);
+            }
+        )
+    },
     
-   /* 'Reservar habitación': function (browser) {
+   'Reservar habitación': function (browser) {
 	browser
-        .click('.BookingForm-actions-bookNow')
-        .waitForElementVisible('body',3000)
-        .pause(3000)
         .click('.login-button')
         .pause(3000)
         .setValue('#loginUserNameId','scottryder@andromeda.com')
@@ -82,7 +93,9 @@ module.exports = {
         .pause(3000)
         .click('button#payment_save')
         .pause(3000)
-        .waitForElementNotPresent('#payment-form',5000);
-    }*/
+        .waitForElementNotPresent('#payment-form',5000)
+        .pause(5000)
+        .end();
+    }
     
 }

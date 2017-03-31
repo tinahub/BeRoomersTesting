@@ -1,3 +1,3 @@
 module.exports = {
-	home_url: 'https://torrent.beroomers.com'
+    home_url: 'https://torrent.beroomers.com'
 };

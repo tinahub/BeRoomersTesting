@@ -5,9 +5,9 @@
 
   <testsuite name="pago"
     errors="0" failures="0" hostname="" id="" package="pago" skipped="0"
-    tests="1" time="17.93" timestamp="Fri, 31 Mar 2017 11:43:26 GMT">
+    tests="1" time="15.78" timestamp="Fri, 31 Mar 2017 14:36:22 GMT">
   
-    <testcase name="Abrir página Beroomers" classname="pago" time="17.93" assertions="1">
+    <testcase name="Abrir página Beroomers" classname="pago" time="15.78" assertions="1">
 
     
     </testcase>
