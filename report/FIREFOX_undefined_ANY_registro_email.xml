@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="5">
+
+  <testsuite name="registro_email"
+    errors="0" failures="0" hostname="" id="" package="registro_email" skipped="0"
+    tests="5" time="85.85" timestamp="Wed, 29 Mar 2017 15:32:06 GMT">
+  
+    <testcase name="Abrir página Beroomers" classname="registro_email" time="29.92" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Abrir formulario de Sign Up" classname="registro_email" time="4.884" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Abrir formulario de Signup Email" classname="registro_email" time="4.302" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Comprobar que form no hace submit si hay campos vacíos" classname="registro_email" time="45.14" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Comprobar que Signup Email funciona" classname="registro_email" time="1.605" assertions="1">
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

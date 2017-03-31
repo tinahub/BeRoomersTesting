@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="8"
+            failures="1"
+            tests="8">
+
+  <testsuite name="registro"
+    errors="8" failures="1" hostname="" id="" package="registro" skipped="2"
+    tests="8" time="119.6" timestamp="Wed, 29 Mar 2017 15:13:26 GMT">
+  
+    <testcase name="Abrir página Beroomers" classname="registro" time="27.61" assertions="1">
+
+    
+    </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;p.Login-haveAccount a&quot; using: css selector
+    at Object.module.exports.Comprobar enlaces de Signup Email (/home/cris/Escritorio/project/test/registro.js:67:10)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+ERROR: Unable to locate element: &quot;button.Signup-email&quot; using: css selector
+    at Object.module.exports.Comprobar enlaces de Signup Email (/home/cris/Escritorio/project/test/registro.js:69:10)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+ERROR: Unable to locate element: &quot;button.FacebookLogin&quot; using: css selector
+    at Object.module.exports.Comprobar enlaces de Signup Email (/home/cris/Escritorio/project/test/registro.js:71:10)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+ERROR: Unable to locate element: &quot;#email&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/home/cris/Escritorio/project/test/registro.js:79:18)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:87:13)
+    at HttpRequest.emit (events.js:172:7)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:97:13)
+    at HttpRequest.emit (events.js:175:7)
+    at IncomingMessage.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:72:20)
+    at IncomingMessage.emit (events.js:166:7)
+ERROR: Unable to locate element: &quot;#pass&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/home/cris/Escritorio/project/test/registro.js:81:18)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:87:13)
+    at HttpRequest.emit (events.js:172:7)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:97:13)
+    at HttpRequest.emit (events.js:175:7)
+    at IncomingMessage.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:72:20)
+    at IncomingMessage.emit (events.js:166:7)
+ERROR: Unable to locate element: &quot;#u_0_2&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/home/cris/Escritorio/project/test/registro.js:83:18)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:87:13)
+    at HttpRequest.emit (events.js:172:7)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:97:13)
+    at HttpRequest.emit (events.js:175:7)
+    at IncomingMessage.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:72:20)
+    at IncomingMessage.emit (events.js:166:7)
+ERROR: Unable to locate element: &quot;div.ReactModal-header-closeButton&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/home/cris/Escritorio/project/test/registro.js:86:15)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:87:13)
+    at HttpRequest.emit (events.js:172:7)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:97:13)
+    at HttpRequest.emit (events.js:175:7)
+    at IncomingMessage.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:72:20)
+    at IncomingMessage.emit (events.js:166:7)
+ERROR: Unable to locate element: &quot;.Menu-li:nth-of-type(1)&quot; using: css selector
+    at Object.module.exports.Comprobar enlaces de Signup Email (/home/cris/Escritorio/project/test/registro.js:89:10)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+      </system-err>
+  
+    <testcase name="Abrir formulario de Sign Up" classname="registro" time="4.717" assertions="1">
+
+    
+    </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;p.Login-haveAccount a&quot; using: css selector
+    at Object.module.exports.Comprobar enlaces de Signup Email (/home/cris/Escritorio/project/test/registro.js:67:10)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+ERROR: Unable to locate element: &quot;button.Signup-email&quot; using: css selector
+    at Object.module.exports.Comprobar enlaces de Signup Email (/home/cris/Escritorio/project/test/registro.js:69:10)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+ERROR: Unable to locate element: &quot;button.FacebookLogin&quot; using: css selector
+    at Object.module.exports.Comprobar enlaces de Signup Email (/home/cris/Escritorio/project/test/registro.js:71:10)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+ERROR: Unable to locate element: &quot;#email&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/home/cris/Escritorio/project/test/registro.js:79:18)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:87:13)
+    at HttpRequest.emit (events.js:172:7)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:97:13)
+    at HttpRequest.emit (events.js:175:7)
+    at IncomingMessage.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:72:20)
+    at IncomingMessage.emit (events.js:166:7)
+ERROR: Unable to locate element: &quot;#pass&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/home/cris/Escritorio/project/test/registro.js:81:18)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:87:13)
+    at HttpRequest.emit (events.js:172:7)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:97:13)
+    at HttpRequest.emit (events.js:175:7)
+    at IncomingMessage.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:72:20)
+    at IncomingMessage.emit (events.js:166:7)
+ERROR: Unable to locate element: &quot;#u_0_2&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/home/cris/Escritorio/project/test/registro.js:83:18)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:87:13)
+    at HttpRequest.emit (events.js:172:7)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:97:13)
+    at HttpRequest.emit (events.js:175:7)
+    at IncomingMessage.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:72:20)
+    at IncomingMessage.emit (events.js:166:7)
+ERROR: Unable to locate element: &quot;div.ReactModal-header-closeButton&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/home/cris/Escritorio/project/test/registro.js:86:15)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:87:13)
+    at HttpRequest.emit (events.js:172:7)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:97:13)
+    at HttpRequest.emit (events.js:175:7)
+    at IncomingMessage.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:72:20)
+    at IncomingMessage.emit (events.js:166:7)
+ERROR: Unable to locate element: &quot;.Menu-li:nth-of-type(1)&quot; using: css selector
+    at Object.module.exports.Comprobar enlaces de Signup Email (/home/cris/Escritorio/project/test/registro.js:89:10)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+      </system-err>
+  
+    <testcase name="Comprobar enlace a Login" classname="registro" time="8.187" assertions="2">
+
+    
+
+    
+    </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;p.Login-haveAccount a&quot; using: css selector
+    at Object.module.exports.Comprobar enlaces de Signup Email (/home/cris/Escritorio/project/test/registro.js:67:10)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+ERROR: Unable to locate element: &quot;button.Signup-email&quot; using: css selector
+    at Object.module.exports.Comprobar enlaces de Signup Email (/home/cris/Escritorio/project/test/registro.js:69:10)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+ERROR: Unable to locate element: &quot;button.FacebookLogin&quot; using: css selector
+    at Object.module.exports.Comprobar enlaces de Signup Email (/home/cris/Escritorio/project/test/registro.js:71:10)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+ERROR: Unable to locate element: &quot;#email&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/home/cris/Escritorio/project/test/registro.js:79:18)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:87:13)
+    at HttpRequest.emit (events.js:172:7)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:97:13)
+    at HttpRequest.emit (events.js:175:7)
+    at IncomingMessage.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:72:20)
+    at IncomingMessage.emit (events.js:166:7)
+ERROR: Unable to locate element: &quot;#pass&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/home/cris/Escritorio/project/test/registro.js:81:18)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:87:13)
+    at HttpRequest.emit (events.js:172:7)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:97:13)
+    at HttpRequest.emit (events.js:175:7)
+    at IncomingMessage.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:72:20)
+    at IncomingMessage.emit (events.js:166:7)
+ERROR: Unable to locate element: &quot;#u_0_2&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/home/cris/Escritorio/project/test/registro.js:83:18)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:87:13)
+    at HttpRequest.emit (events.js:172:7)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:97:13)
+    at HttpRequest.emit (events.js:175:7)
+    at IncomingMessage.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:72:20)
+    at IncomingMessage.emit (events.js:166:7)
+ERROR: Unable to locate element: &quot;div.ReactModal-header-closeButton&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/home/cris/Escritorio/project/test/registro.js:86:15)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:87:13)
+    at HttpRequest.emit (events.js:172:7)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:97:13)
+    at HttpRequest.emit (events.js:175:7)
+    at IncomingMessage.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:72:20)
+    at IncomingMessage.emit (events.js:166:7)
+ERROR: Unable to locate element: &quot;.Menu-li:nth-of-type(1)&quot; using: css selector
+    at Object.module.exports.Comprobar enlaces de Signup Email (/home/cris/Escritorio/project/test/registro.js:89:10)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+      </system-err>
+  
+    <testcase name="Comprobar Signup Facebook" classname="registro" time="24.91" assertions="0">
+    </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;p.Login-haveAccount a&quot; using: css selector
+    at Object.module.exports.Comprobar enlaces de Signup Email (/home/cris/Escritorio/project/test/registro.js:67:10)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+ERROR: Unable to locate element: &quot;button.Signup-email&quot; using: css selector
+    at Object.module.exports.Comprobar enlaces de Signup Email (/home/cris/Escritorio/project/test/registro.js:69:10)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+ERROR: Unable to locate element: &quot;button.FacebookLogin&quot; using: css selector
+    at Object.module.exports.Comprobar enlaces de Signup Email (/home/cris/Escritorio/project/test/registro.js:71:10)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+ERROR: Unable to locate element: &quot;#email&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/home/cris/Escritorio/project/test/registro.js:79:18)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:87:13)
+    at HttpRequest.emit (events.js:172:7)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:97:13)
+    at HttpRequest.emit (events.js:175:7)
+    at IncomingMessage.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:72:20)
+    at IncomingMessage.emit (events.js:166:7)
+ERROR: Unable to locate element: &quot;#pass&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/home/cris/Escritorio/project/test/registro.js:81:18)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:87:13)
+    at HttpRequest.emit (events.js:172:7)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:97:13)
+    at HttpRequest.emit (events.js:175:7)
+    at IncomingMessage.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:72:20)
+    at IncomingMessage.emit (events.js:166:7)
+ERROR: Unable to locate element: &quot;#u_0_2&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/home/cris/Escritorio/project/test/registro.js:83:18)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:87:13)
+    at HttpRequest.emit (events.js:172:7)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:97:13)
+    at HttpRequest.emit (events.js:175:7)
+    at IncomingMessage.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:72:20)
+    at IncomingMessage.emit (events.js:166:7)
+ERROR: Unable to locate element: &quot;div.ReactModal-header-closeButton&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/home/cris/Escritorio/project/test/registro.js:86:15)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:87:13)
+    at HttpRequest.emit (events.js:172:7)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:97:13)
+    at HttpRequest.emit (events.js:175:7)
+    at IncomingMessage.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:72:20)
+    at IncomingMessage.emit (events.js:166:7)
+ERROR: Unable to locate element: &quot;.Menu-li:nth-of-type(1)&quot; using: css selector
+    at Object.module.exports.Comprobar enlaces de Signup Email (/home/cris/Escritorio/project/test/registro.js:89:10)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+      </system-err>
+  
+    <testcase name="Comprobar enlace a Signup Email" classname="registro" time="11.52" assertions="2">
+
+    
+
+    
+    </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;p.Login-haveAccount a&quot; using: css selector
+    at Object.module.exports.Comprobar enlaces de Signup Email (/home/cris/Escritorio/project/test/registro.js:67:10)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+ERROR: Unable to locate element: &quot;button.Signup-email&quot; using: css selector
+    at Object.module.exports.Comprobar enlaces de Signup Email (/home/cris/Escritorio/project/test/registro.js:69:10)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+ERROR: Unable to locate element: &quot;button.FacebookLogin&quot; using: css selector
+    at Object.module.exports.Comprobar enlaces de Signup Email (/home/cris/Escritorio/project/test/registro.js:71:10)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+ERROR: Unable to locate element: &quot;#email&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/home/cris/Escritorio/project/test/registro.js:79:18)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:87:13)
+    at HttpRequest.emit (events.js:172:7)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:97:13)
+    at HttpRequest.emit (events.js:175:7)
+    at IncomingMessage.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:72:20)
+    at IncomingMessage.emit (events.js:166:7)
+ERROR: Unable to locate element: &quot;#pass&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/home/cris/Escritorio/project/test/registro.js:81:18)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:87:13)
+    at HttpRequest.emit (events.js:172:7)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:97:13)
+    at HttpRequest.emit (events.js:175:7)
+    at IncomingMessage.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:72:20)
+    at IncomingMessage.emit (events.js:166:7)
+ERROR: Unable to locate element: &quot;#u_0_2&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/home/cris/Escritorio/project/test/registro.js:83:18)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:87:13)
+    at HttpRequest.emit (events.js:172:7)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:97:13)
+    at HttpRequest.emit (events.js:175:7)
+    at IncomingMessage.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:72:20)
+    at IncomingMessage.emit (events.js:166:7)
+ERROR: Unable to locate element: &quot;div.ReactModal-header-closeButton&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/home/cris/Escritorio/project/test/registro.js:86:15)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:87:13)
+    at HttpRequest.emit (events.js:172:7)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:97:13)
+    at HttpRequest.emit (events.js:175:7)
+    at IncomingMessage.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:72:20)
+    at IncomingMessage.emit (events.js:166:7)
+ERROR: Unable to locate element: &quot;.Menu-li:nth-of-type(1)&quot; using: css selector
+    at Object.module.exports.Comprobar enlaces de Signup Email (/home/cris/Escritorio/project/test/registro.js:89:10)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+      </system-err>
+  
+    <testcase name="Comprobar enlaces de Signup Email" classname="registro" time="42.69" assertions="1">  <failure message="Timed out while waiting for element &lt;div.Signup&gt; to be present for 3000 milliseconds.">    at Object.module.exports.Comprobar enlaces de Signup Email (/home/cris/Escritorio/project/test/registro.js:91:4)</failure>
+
+    
+    </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;p.Login-haveAccount a&quot; using: css selector
+    at Object.module.exports.Comprobar enlaces de Signup Email (/home/cris/Escritorio/project/test/registro.js:67:10)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+ERROR: Unable to locate element: &quot;button.Signup-email&quot; using: css selector
+    at Object.module.exports.Comprobar enlaces de Signup Email (/home/cris/Escritorio/project/test/registro.js:69:10)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+ERROR: Unable to locate element: &quot;button.FacebookLogin&quot; using: css selector
+    at Object.module.exports.Comprobar enlaces de Signup Email (/home/cris/Escritorio/project/test/registro.js:71:10)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+ERROR: Unable to locate element: &quot;#email&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/home/cris/Escritorio/project/test/registro.js:79:18)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:87:13)
+    at HttpRequest.emit (events.js:172:7)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:97:13)
+    at HttpRequest.emit (events.js:175:7)
+    at IncomingMessage.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:72:20)
+    at IncomingMessage.emit (events.js:166:7)
+ERROR: Unable to locate element: &quot;#pass&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/home/cris/Escritorio/project/test/registro.js:81:18)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:87:13)
+    at HttpRequest.emit (events.js:172:7)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:97:13)
+    at HttpRequest.emit (events.js:175:7)
+    at IncomingMessage.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:72:20)
+    at IncomingMessage.emit (events.js:166:7)
+ERROR: Unable to locate element: &quot;#u_0_2&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/home/cris/Escritorio/project/test/registro.js:83:18)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:87:13)
+    at HttpRequest.emit (events.js:172:7)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:97:13)
+    at HttpRequest.emit (events.js:175:7)
+    at IncomingMessage.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:72:20)
+    at IncomingMessage.emit (events.js:166:7)
+ERROR: Unable to locate element: &quot;div.ReactModal-header-closeButton&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/home/cris/Escritorio/project/test/registro.js:86:15)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:87:13)
+    at HttpRequest.emit (events.js:172:7)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:97:13)
+    at HttpRequest.emit (events.js:175:7)
+    at IncomingMessage.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:72:20)
+    at IncomingMessage.emit (events.js:166:7)
+ERROR: Unable to locate element: &quot;.Menu-li:nth-of-type(1)&quot; using: css selector
+    at Object.module.exports.Comprobar enlaces de Signup Email (/home/cris/Escritorio/project/test/registro.js:89:10)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at nextTickCallbackWith0Args (node.js:419:9)
+      </system-err>
+  
+  
+    
+    <testcase
+      name="Comprobar que form no hace submit si hay campos vacíos" classname="registro">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Comprobar Signup Email" classname="registro">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

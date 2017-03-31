@@ -1,0 +1,195 @@
+13:46:48.980 INFO - Selenium build info: version: '3.3.1', revision: '5234b32'
+13:46:48.983 INFO - Launching a standalone Selenium Server
+2017-03-31 13:46:49.045:INFO::main: Logging initialized @880ms to org.seleniumhq.jetty9.util.log.StdErrLog
+13:46:49.262 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+ registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform LINUX
+13:46:49.264 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+ registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform LINUX
+13:46:49.265 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+13:46:49.266 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+Unable to create new instances on this machine.
+13:46:49.267 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+13:46:49.268 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+13:46:49.272 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+ registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform LINUX
+2017-03-31 13:46:49.425:INFO:osjs.Server:main: jetty-9.2.20.v20161216
+2017-03-31 13:46:49.548:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@53b32d7{/,null,AVAILABLE}
+2017-03-31 13:46:49.640:INFO:osjs.AbstractConnector:main: Started ServerConnector@3b00f243{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2017-03-31 13:46:49.643:INFO:osjs.Server:main: Started @1479ms
+13:46:49.643 INFO - Selenium Server is up and running
+13:46:50.474 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+13:46:50.566 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Busqueda, browserName=firefox, javascriptEnabled=true, chromeOptions={args=[start-maximized]}, platform=ANY}]])
+13:46:50.621 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Busqueda, browserName=firefox, javascriptEnabled=true, chromeOptions={args=[start-maximized]}, platform=ANY}]
+1490960811840	geckodriver	INFO	Listening on 127.0.0.1:8850
+1490960812322	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.DLKH7MVwpziv
+1490960812326	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1490960812337	geckodriver::marionette	INFO	Connecting to Marionette on localhost:42769
+1490960815497	Marionette	INFO	Listening on port 42769
+13:47:02.820 INFO - Detected dialect: W3C
+13:47:02.957 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Busqueda, browserName=firefox, javascriptEnabled=true, chromeOptions={args=[start-maximized]}, platform=ANY}]]
+13:47:03.101 INFO - Executing: [get: https://torrent.beroomers.com])
+13:47:14.378 INFO - Done: [get: https://torrent.beroomers.com]
+13:47:14.459 INFO - Executing: [find elements: By.cssSelector: body])
+13:47:14.757 INFO - Done: [find elements: By.cssSelector: body]
+13:47:14.782 INFO - Executing: [is displayed: 0 [[FirefoxDriver: firefox on ANY (a23a487b-2ed4-4559-b340-234902d8ffda)] -> css selector: body]])
+13:47:15.277 INFO - Done: [is displayed: 0 [[FirefoxDriver: firefox on ANY (a23a487b-2ed4-4559-b340-234902d8ffda)] -> css selector: body]]
+13:47:17.364 INFO - Executing: [find element: By.cssSelector: .SearchPlaceBox-input])
+13:47:17.438 INFO - Done: [find element: By.cssSelector: .SearchPlaceBox-input]
+13:47:17.472 INFO - Executing: [send keys: 1 [[FirefoxDriver: firefox on ANY (a23a487b-2ed4-4559-b340-234902d8ffda)] -> css selector: .SearchPlaceBox-input], [V, a, l, e, n, c, i, a]])
+13:47:18.483 INFO - Done: [send keys: 1 [[FirefoxDriver: firefox on ANY (a23a487b-2ed4-4559-b340-234902d8ffda)] -> css selector: .SearchPlaceBox-input], [V, a, l, e, n, c, i, a]]
+13:47:20.503 INFO - Executing: [find element: By.cssSelector: .SearchPlaceBoxItem--actived])
+13:47:20.567 INFO - Done: [find element: By.cssSelector: .SearchPlaceBoxItem--actived]
+13:47:20.596 INFO - Executing: [click: 2 [[FirefoxDriver: firefox on ANY (a23a487b-2ed4-4559-b340-234902d8ffda)] -> css selector: .SearchPlaceBoxItem--actived]])
+13:47:22.588 INFO - Done: [click: 2 [[FirefoxDriver: firefox on ANY (a23a487b-2ed4-4559-b340-234902d8ffda)] -> css selector: .SearchPlaceBoxItem--actived]]
+13:47:24.625 INFO - Executing: [find element: By.cssSelector: #startDate])
+13:47:24.669 INFO - Done: [find element: By.cssSelector: #startDate]
+13:47:24.695 INFO - Executing: [send keys: 3 [[FirefoxDriver: firefox on ANY (a23a487b-2ed4-4559-b340-234902d8ffda)] -> css selector: #startDate], [0, 1, -, 1, 2, -, 2, 0, 1, 7]])
+13:47:28.397 INFO - Done: [send keys: 3 [[FirefoxDriver: firefox on ANY (a23a487b-2ed4-4559-b340-234902d8ffda)] -> css selector: #startDate], [0, 1, -, 1, 2, -, 2, 0, 1, 7]]
+13:47:30.431 INFO - Executing: [find element: By.cssSelector: #endDate])
+13:47:30.486 INFO - Done: [find element: By.cssSelector: #endDate]
+13:47:30.504 INFO - Executing: [send keys: 4 [[FirefoxDriver: firefox on ANY (a23a487b-2ed4-4559-b340-234902d8ffda)] -> css selector: #endDate], [0, 1, -, 1, 2, -, 2, 0, 1, 8]])
+13:47:33.214 INFO - Done: [send keys: 4 [[FirefoxDriver: firefox on ANY (a23a487b-2ed4-4559-b340-234902d8ffda)] -> css selector: #endDate], [0, 1, -, 1, 2, -, 2, 0, 1, 8]]
+13:47:35.234 INFO - Executing: [find element: By.cssSelector: .SearchBox-button])
+13:47:35.282 INFO - Done: [find element: By.cssSelector: .SearchBox-button]
+13:47:35.300 INFO - Executing: [click: 5 [[FirefoxDriver: firefox on ANY (a23a487b-2ed4-4559-b340-234902d8ffda)] -> css selector: .SearchBox-button]])
+13:47:35.816 INFO - Done: [click: 5 [[FirefoxDriver: firefox on ANY (a23a487b-2ed4-4559-b340-234902d8ffda)] -> css selector: .SearchBox-button]]
+13:47:35.880 INFO - Executing: [find elements: By.cssSelector: .SearchResults])
+13:47:36.062 INFO - Done: [find elements: By.cssSelector: .SearchResults]
+13:47:36.586 INFO - Executing: [find elements: By.cssSelector: .SearchResults])
+13:47:36.890 INFO - Done: [find elements: By.cssSelector: .SearchResults]
+13:47:37.420 INFO - Executing: [find elements: By.cssSelector: .SearchResults])
+13:47:37.500 INFO - Done: [find elements: By.cssSelector: .SearchResults]
+13:47:38.017 INFO - Executing: [find elements: By.cssSelector: .SearchResults])
+13:47:42.135 INFO - Done: [find elements: By.cssSelector: .SearchResults]
+13:47:42.153 INFO - Executing: [is displayed: 6 [[FirefoxDriver: firefox on ANY (a23a487b-2ed4-4559-b340-234902d8ffda)] -> css selector: .SearchResults]])
+13:47:42.647 INFO - Done: [is displayed: 6 [[FirefoxDriver: firefox on ANY (a23a487b-2ed4-4559-b340-234902d8ffda)] -> css selector: .SearchResults]]
+13:47:44.706 INFO - Executing: [find element: By.cssSelector: .FilterToolBar-showExtended])
+13:47:46.416 INFO - Done: [find element: By.cssSelector: .FilterToolBar-showExtended]
+13:47:46.454 INFO - Executing: [click: 7 [[FirefoxDriver: firefox on ANY (a23a487b-2ed4-4559-b340-234902d8ffda)] -> css selector: .FilterToolBar-showExtended]])
+13:47:47.124 INFO - Done: [click: 7 [[FirefoxDriver: firefox on ANY (a23a487b-2ed4-4559-b340-234902d8ffda)] -> css selector: .FilterToolBar-showExtended]]
+13:47:49.162 INFO - Executing: [find element: By.cssSelector: .beicon-shared-flat])
+13:47:49.186 INFO - Done: [find element: By.cssSelector: .beicon-shared-flat]
+13:47:49.199 INFO - Executing: [click: 8 [[FirefoxDriver: firefox on ANY (a23a487b-2ed4-4559-b340-234902d8ffda)] -> css selector: .beicon-shared-flat]])
+13:47:49.361 INFO - Done: [click: 8 [[FirefoxDriver: firefox on ANY (a23a487b-2ed4-4559-b340-234902d8ffda)] -> css selector: .beicon-shared-flat]]
+13:47:51.381 INFO - Executing: [find element: By.cssSelector: .WholeApartmentFilter-element--bathrooms .SelectOptionNumber-element:nth-of-type(2)])
+13:47:51.407 INFO - Done: [find element: By.cssSelector: .WholeApartmentFilter-element--bathrooms .SelectOptionNumber-element:nth-of-type(2)]
+13:47:51.417 INFO - Executing: [click: 9 [[FirefoxDriver: firefox on ANY (a23a487b-2ed4-4559-b340-234902d8ffda)] -> css selector: .WholeApartmentFilter-element--bathrooms .SelectOptionNumber-element:nth-of-type(2)]])
+13:47:51.560 INFO - Done: [click: 9 [[FirefoxDriver: firefox on ANY (a23a487b-2ed4-4559-b340-234902d8ffda)] -> css selector: .WholeApartmentFilter-element--bathrooms .SelectOptionNumber-element:nth-of-type(2)]]
+13:47:53.576 INFO - Executing: [find element: By.cssSelector: input[name=washing-machine-check]])
+13:47:53.601 INFO - Done: [find element: By.cssSelector: input[name=washing-machine-check]]
+13:47:53.611 INFO - Executing: [click: 10 [[FirefoxDriver: firefox on ANY (a23a487b-2ed4-4559-b340-234902d8ffda)] -> css selector: input[name=washing-machine-check]]])
+13:47:53.731 INFO - Done: [click: 10 [[FirefoxDriver: firefox on ANY (a23a487b-2ed4-4559-b340-234902d8ffda)] -> css selector: input[name=washing-machine-check]]]
+13:47:55.749 INFO - Executing: [find element: By.cssSelector: input[name=wifi-check]])
+13:47:55.820 INFO - Done: [find element: By.cssSelector: input[name=wifi-check]]
+13:47:55.837 INFO - Executing: [click: 11 [[FirefoxDriver: firefox on ANY (a23a487b-2ed4-4559-b340-234902d8ffda)] -> css selector: input[name=wifi-check]]])
+13:47:56.043 INFO - Done: [click: 11 [[FirefoxDriver: firefox on ANY (a23a487b-2ed4-4559-b340-234902d8ffda)] -> css selector: input[name=wifi-check]]]
+13:47:58.057 INFO - Executing: [find element: By.cssSelector: input[name=tv-check]])
+13:47:58.089 INFO - Done: [find element: By.cssSelector: input[name=tv-check]]
+13:47:58.099 INFO - Executing: [click: 12 [[FirefoxDriver: firefox on ANY (a23a487b-2ed4-4559-b340-234902d8ffda)] -> css selector: input[name=tv-check]]])
+13:47:58.251 INFO - Done: [click: 12 [[FirefoxDriver: firefox on ANY (a23a487b-2ed4-4559-b340-234902d8ffda)] -> css selector: input[name=tv-check]]]
+13:48:00.266 INFO - Executing: [find element: By.cssSelector: .beicon-single-bed])
+13:48:00.314 INFO - Done: [find element: By.cssSelector: .beicon-single-bed]
+13:48:00.323 INFO - Executing: [click: 13 [[FirefoxDriver: firefox on ANY (a23a487b-2ed4-4559-b340-234902d8ffda)] -> css selector: .beicon-single-bed]])
+13:48:00.418 INFO - Done: [click: 13 [[FirefoxDriver: firefox on ANY (a23a487b-2ed4-4559-b340-234902d8ffda)] -> css selector: .beicon-single-bed]]
+13:48:02.433 INFO - Executing: [find element: By.cssSelector: input[name=closet-check]])
+13:48:02.455 INFO - Done: [find element: By.cssSelector: input[name=closet-check]]
+13:48:02.463 INFO - Executing: [click: 14 [[FirefoxDriver: firefox on ANY (a23a487b-2ed4-4559-b340-234902d8ffda)] -> css selector: input[name=closet-check]]])
+13:48:04.008 WARN - Exception thrown
+org.openqa.selenium.ElementNotVisibleException: 
+Build info: version: '3.3.1', revision: '5234b32', time: '2017-03-10 09:04:52 -0800'
+System info: host: 'crisBeroomers-PC', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.8.0-44-generic', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=/tmp/rust_mozprofile.DLKH7MVwpziv, rotatable=false, timeouts={implicit=0, page load=300000, script=30000}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=52.0.1, platformVersion=4.8.0-44-generic, moz:processID=16465, browserName=firefox, platformName=linux}]
+Session ID: a23a487b-2ed4-4559-b340-234902d8ffda
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:99)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:43)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:332)
+	at com.sun.proxy.$Proxy5.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:345)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:64)
+	at com.sun.proxy.$Proxy6.click(Unknown Source)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:30)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:22)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+13:48:04.016 WARN - Exception: 
+Build info: version: '3.3.1', revision: '5234b32', time: '2017-03-10 09:04:52 -0800'
+System info: host: 'crisBeroomers-PC', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.8.0-44-generic', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=/tmp/rust_mozprofile.DLKH7MVwpziv, rotatable=false, timeouts={implicit=0, page load=300000, script=30000}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=52.0.1, platformVersion=4.8.0-44-generic, moz:processID=16465, browserName=firefox, platformName=linux}]
+Session ID: a23a487b-2ed4-4559-b340-234902d8ffda
+13:48:06.259 INFO - Executing: [find element: By.cssSelector: input[name=heating-check]])
+13:48:06.284 INFO - Done: [find element: By.cssSelector: input[name=heating-check]]
+13:48:06.296 INFO - Executing: [click: 15 [[FirefoxDriver: firefox on ANY (a23a487b-2ed4-4559-b340-234902d8ffda)] -> css selector: input[name=heating-check]]])
+13:48:07.454 WARN - Exception thrown
+org.openqa.selenium.ElementNotVisibleException: 
+Build info: version: '3.3.1', revision: '5234b32', time: '2017-03-10 09:04:52 -0800'
+System info: host: 'crisBeroomers-PC', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.8.0-44-generic', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=/tmp/rust_mozprofile.DLKH7MVwpziv, rotatable=false, timeouts={implicit=0, page load=300000, script=30000}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=52.0.1, platformVersion=4.8.0-44-generic, moz:processID=16465, browserName=firefox, platformName=linux}]
+Session ID: a23a487b-2ed4-4559-b340-234902d8ffda
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:99)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:43)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:332)
+	at com.sun.proxy.$Proxy5.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:345)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:64)
+	at com.sun.proxy.$Proxy6.click(Unknown Source)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:30)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:22)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+13:48:07.456 WARN - Exception: 
+Build info: version: '3.3.1', revision: '5234b32', time: '2017-03-10 09:04:52 -0800'
+System info: host: 'crisBeroomers-PC', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.8.0-44-generic', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=/tmp/rust_mozprofile.DLKH7MVwpziv, rotatable=false, timeouts={implicit=0, page load=300000, script=30000}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=52.0.1, platformVersion=4.8.0-44-generic, moz:processID=16465, browserName=firefox, platformName=linux}]
+Session ID: a23a487b-2ed4-4559-b340-234902d8ffda
+13:48:09.605 INFO - Executing: [find element: By.cssSelector: .FilterToolBar-apply])
+13:48:09.631 INFO - Done: [find element: By.cssSelector: .FilterToolBar-apply]
+13:48:09.641 INFO - Executing: [click: 16 [[FirefoxDriver: firefox on ANY (a23a487b-2ed4-4559-b340-234902d8ffda)] -> css selector: .FilterToolBar-apply]])
+13:48:11.322 INFO - Done: [click: 16 [[FirefoxDriver: firefox on ANY (a23a487b-2ed4-4559-b340-234902d8ffda)] -> css selector: .FilterToolBar-apply]]
+13:48:13.338 INFO - Executing: [find elements: By.cssSelector: .SearchResults])
+13:48:13.653 INFO - Done: [find elements: By.cssSelector: .SearchResults]
+13:48:13.669 INFO - Executing: [is displayed: 17 [[FirefoxDriver: firefox on ANY (a23a487b-2ed4-4559-b340-234902d8ffda)] -> css selector: .SearchResults]])
+13:48:13.872 INFO - Done: [is displayed: 17 [[FirefoxDriver: firefox on ANY (a23a487b-2ed4-4559-b340-234902d8ffda)] -> css selector: .SearchResults]]
+13:48:15.950 INFO - Executing: [delete session: 5d5f7473-fca9-4d95-ab3a-c8102a221cfd])
+1490960895964	Marionette	INFO	New connections will no longer be accepted

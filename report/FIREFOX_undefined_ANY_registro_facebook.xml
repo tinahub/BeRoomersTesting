@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="4">
+
+  <testsuite name="registro_facebook"
+    errors="1" failures="0" hostname="" id="" package="registro_facebook" skipped="0"
+    tests="4" time="54.53" timestamp="Thu, 30 Mar 2017 11:59:44 GMT">
+  
+    <testcase name="Abrir página Beroomers" classname="registro_facebook" time="25.32" assertions="1">
+
+    
+    </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;#signupPrefixId option[value=&quot;+34&quot;]&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/home/cris/Escritorio/project/test/registro_facebook.js:40:22)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:87:13)
+    at HttpRequest.emit (events.js:172:7)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:97:13)
+    at HttpRequest.emit (events.js:175:7)
+    at IncomingMessage.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:72:20)
+    at IncomingMessage.emit (events.js:166:7)
+      </system-err>
+  
+    <testcase name="Abrir formulario de Sign Up" classname="registro_facebook" time="2.934" assertions="1">
+
+    
+    </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;#signupPrefixId option[value=&quot;+34&quot;]&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/home/cris/Escritorio/project/test/registro_facebook.js:40:22)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:87:13)
+    at HttpRequest.emit (events.js:172:7)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:97:13)
+    at HttpRequest.emit (events.js:175:7)
+    at IncomingMessage.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:72:20)
+    at IncomingMessage.emit (events.js:166:7)
+      </system-err>
+  
+    <testcase name="Abrir formulario de Signup Facebook" classname="registro_facebook" time="3.774" assertions="0">
+    </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;#signupPrefixId option[value=&quot;+34&quot;]&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/home/cris/Escritorio/project/test/registro_facebook.js:40:22)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:87:13)
+    at HttpRequest.emit (events.js:172:7)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:97:13)
+    at HttpRequest.emit (events.js:175:7)
+    at IncomingMessage.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:72:20)
+    at IncomingMessage.emit (events.js:166:7)
+      </system-err>
+  
+    <testcase name="Comprobar Signup Facebook" classname="registro_facebook" time="22.50" assertions="1">
+
+    
+    </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;#signupPrefixId option[value=&quot;+34&quot;]&quot; using: css selector
+    at Object.&lt;anonymous&gt; (/home/cris/Escritorio/project/test/registro_facebook.js:40:22)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:366:18)
+    at emitTwo (events.js:87:13)
+    at HttpRequest.emit (events.js:172:7)
+    at HttpRequest.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/index.js:382:15)
+    at emitThree (events.js:97:13)
+    at HttpRequest.emit (events.js:175:7)
+    at IncomingMessage.&lt;anonymous&gt; (/usr/local/lib/node_modules/nightwatch/lib/http/request.js:166:16)
+    at emitNone (events.js:72:20)
+    at IncomingMessage.emit (events.js:166:7)
+      </system-err>
+  
+  
+  </testsuite>
+</testsuites>

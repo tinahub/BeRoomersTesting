@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="5">
+
+  <testsuite name="prueba"
+    errors="0" failures="1" hostname="" id="" package="prueba" skipped="2"
+    tests="5" time="30.76" timestamp="Mon, 27 Mar 2017 10:50:44 GMT">
+  
+    <testcase name="Abrir página Beroomers" classname="prueba" time="19.41" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Abrir formulario de Sign Up" classname="prueba" time="3.804" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Comprobar enlace a Login" classname="prueba" time="7.539" assertions="1">  <failure message="Timed out while waiting for element &lt;form.Login&gt; to be present for 1000 milliseconds.">    at Object.module.exports.Comprobar enlace a Login (/home/tina/project/tests/prueba.js:23:4)</failure>
+
+    
+    </testcase>
+  
+  
+    
+    <testcase
+      name="Comprobar enlace a Signup Facebook" classname="prueba">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Comprobar enlace a Signup Email" classname="prueba">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

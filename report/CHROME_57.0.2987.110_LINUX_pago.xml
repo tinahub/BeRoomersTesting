@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="pago"
+    errors="0" failures="0" hostname="" id="" package="pago" skipped="0"
+    tests="1" time="59.03" timestamp="Wed, 29 Mar 2017 14:52:04 GMT">
+  
+    <testcase name="Reservar habitación" classname="pago" time="59.03" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

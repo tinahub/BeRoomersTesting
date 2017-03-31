@@ -1,0 +1,30 @@
+{
+	"src_folders" : ["tests"],
+	"output_folder" : "reports",
+
+	"selenium" : 
+	{
+		"start_process" : true,
+		"server_path" : "libs/selenium-server-standalone-3.3.1.jar",
+		"cli_args" :
+		{
+			"webdriver.chrome.driver" : "libs/chromedriver"
+				
+}
+	},
+
+	"test_settings" : 
+	{
+		"default":
+		{
+			"silent": true,
+			"desiredCapabilities":
+			{
+				"browserName": "chrome"
+				"javascriptEnabled": true,
+				"acceptSslCerts": true
+			}
+		}
+
+	}
+}

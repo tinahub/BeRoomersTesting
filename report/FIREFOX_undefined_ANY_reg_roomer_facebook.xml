@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="4">
+
+  <testsuite name="reg_roomer_facebook"
+    errors="0" failures="0" hostname="" id="" package="reg_roomer_facebook" skipped="0"
+    tests="4" time="55.95" timestamp="Fri, 31 Mar 2017 09:17:52 GMT">
+  
+    <testcase name="Abrir página Beroomers" classname="reg_roomer_facebook" time="25.45" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Abrir formulario de Sign Up" classname="reg_roomer_facebook" time="2.547" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Abrir formulario de Signup Facebook" classname="reg_roomer_facebook" time="3.348" assertions="0">
+    </testcase>
+  
+    <testcase name="Comprobar Signup Facebook" classname="reg_roomer_facebook" time="24.60" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

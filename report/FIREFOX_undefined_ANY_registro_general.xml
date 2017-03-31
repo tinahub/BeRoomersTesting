@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="4">
+
+  <testsuite name="registro_general"
+    errors="0" failures="0" hostname="" id="" package="registro_general" skipped="0"
+    tests="4" time="76.72" timestamp="Thu, 30 Mar 2017 09:03:50 GMT">
+  
+    <testcase name="Abrir página Beroomers" classname="registro_general" time="27.59" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Abrir formulario de Sign Up" classname="registro_general" time="4.773" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Comprobar enlace a Login" classname="registro_general" time="9.160" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Comprobar enlaces de Signup Email" classname="registro_general" time="35.20" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>
