@@ -1,323 +1,279 @@
-17:45:28.858 INFO - Selenium build info: version: '3.3.1', revision: '5234b32'
-17:45:28.861 INFO - Launching a standalone Selenium Server
-2017-03-31 17:45:28.925:INFO::main: Logging initialized @888ms to org.seleniumhq.jetty9.util.log.StdErrLog
-17:45:29.139 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+16:36:04.179 INFO - Selenium build info: version: '3.3.1', revision: '5234b32'
+16:36:04.182 INFO - Launching a standalone Selenium Server
+2017-04-03 16:36:04.247:INFO::main: Logging initialized @977ms to org.seleniumhq.jetty9.util.log.StdErrLog
+16:36:04.469 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
  registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform LINUX
-17:45:29.140 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+16:36:04.470 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
  registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform LINUX
-17:45:29.141 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-17:45:29.142 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+16:36:04.471 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+16:36:04.472 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
 Unable to create new instances on this machine.
-17:45:29.142 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-17:45:29.143 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-17:45:29.147 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+16:36:04.472 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+16:36:04.473 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+16:36:04.476 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
  registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform LINUX
-2017-03-31 17:45:29.299:INFO:osjs.Server:main: jetty-9.2.20.v20161216
-2017-03-31 17:45:29.446:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@53b32d7{/,null,AVAILABLE}
-2017-03-31 17:45:29.508:INFO:osjs.AbstractConnector:main: Started ServerConnector@256cd483{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
-2017-03-31 17:45:29.510:INFO:osjs.Server:main: Started @1473ms
-17:45:29.510 INFO - Selenium Server is up and running
-17:45:30.337 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
-17:45:30.428 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Busqueda Y Pago, browserName=firefox, javascriptEnabled=true, chromeOptions={args=[start-maximized]}, platform=ANY}]])
-17:45:30.482 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Busqueda Y Pago, browserName=firefox, javascriptEnabled=true, chromeOptions={args=[start-maximized]}, platform=ANY}]
-1490975131654	geckodriver	INFO	Listening on 127.0.0.1:4182
-1490975132110	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.vB7tOZHOrV8Q
-1490975132113	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
-1490975132123	geckodriver::marionette	INFO	Connecting to Marionette on localhost:33835
-1490975135237	Marionette	INFO	Listening on port 33835
-17:45:42.434 INFO - Detected dialect: W3C
-17:45:42.639 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Busqueda Y Pago, browserName=firefox, javascriptEnabled=true, chromeOptions={args=[start-maximized]}, platform=ANY}]]
-17:45:42.760 INFO - Executing: [get: https://torrent.beroomers.com])
-17:45:52.886 INFO - Done: [get: https://torrent.beroomers.com]
-17:45:53.005 INFO - Executing: [find elements: By.cssSelector: body])
-17:45:53.317 INFO - Done: [find elements: By.cssSelector: body]
-17:45:53.334 INFO - Executing: [is displayed: 0 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: body]])
-17:45:53.728 INFO - Done: [is displayed: 0 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: body]]
-17:45:55.807 INFO - Executing: [find element: By.cssSelector: .SearchPlaceBox-input])
-17:45:55.908 INFO - Done: [find element: By.cssSelector: .SearchPlaceBox-input]
-17:45:55.929 INFO - Executing: [send keys: 1 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: .SearchPlaceBox-input], [V, a, l, e, n, c, i, a]])
-17:45:56.839 INFO - Done: [send keys: 1 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: .SearchPlaceBox-input], [V, a, l, e, n, c, i, a]]
-17:45:58.864 INFO - Executing: [find element: By.cssSelector: .SearchPlaceBoxItem--actived])
-17:45:58.930 INFO - Done: [find element: By.cssSelector: .SearchPlaceBoxItem--actived]
-17:45:58.947 INFO - Executing: [click: 2 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: .SearchPlaceBoxItem--actived]])
-17:46:00.705 INFO - Done: [click: 2 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: .SearchPlaceBoxItem--actived]]
-17:46:02.727 INFO - Executing: [find element: By.cssSelector: #startDate])
-17:46:02.797 INFO - Done: [find element: By.cssSelector: #startDate]
-17:46:02.820 INFO - Executing: [send keys: 3 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: #startDate], [0, 1, -, 1, 2, -, 2, 0, 1, 7]])
-17:46:05.945 INFO - Done: [send keys: 3 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: #startDate], [0, 1, -, 1, 2, -, 2, 0, 1, 7]]
-17:46:07.959 INFO - Executing: [find element: By.cssSelector: #endDate])
-17:46:08.006 INFO - Done: [find element: By.cssSelector: #endDate]
-17:46:08.024 INFO - Executing: [send keys: 4 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: #endDate], [0, 1, -, 1, 2, -, 2, 0, 1, 8]])
-17:46:09.279 INFO - Done: [send keys: 4 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: #endDate], [0, 1, -, 1, 2, -, 2, 0, 1, 8]]
-17:46:11.298 INFO - Executing: [find element: By.cssSelector: .SearchBox-button])
-17:46:11.339 INFO - Done: [find element: By.cssSelector: .SearchBox-button]
-17:46:11.350 INFO - Executing: [click: 5 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: .SearchBox-button]])
-17:46:12.015 INFO - Done: [click: 5 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: .SearchBox-button]]
-17:46:12.065 INFO - Executing: [find elements: By.cssSelector: .SearchResults])
-17:46:12.202 INFO - Done: [find elements: By.cssSelector: .SearchResults]
-17:46:12.723 INFO - Executing: [find elements: By.cssSelector: .SearchResults])
-17:46:12.991 INFO - Done: [find elements: By.cssSelector: .SearchResults]
-17:46:13.512 INFO - Executing: [find elements: By.cssSelector: .SearchResults])
-17:46:17.853 INFO - Done: [find elements: By.cssSelector: .SearchResults]
-17:46:17.866 INFO - Executing: [is displayed: 6 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: .SearchResults]])
-17:46:18.447 INFO - Done: [is displayed: 6 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: .SearchResults]]
-17:46:20.505 INFO - Executing: [find element: By.cssSelector: .FilterToolBar-showExtended])
-17:46:21.598 INFO - Done: [find element: By.cssSelector: .FilterToolBar-showExtended]
-17:46:21.608 INFO - Executing: [click: 7 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: .FilterToolBar-showExtended]])
-17:46:22.984 INFO - Done: [click: 7 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: .FilterToolBar-showExtended]]
-17:46:25.010 INFO - Executing: [find element: By.cssSelector: .beicon-shared-flat])
-17:46:25.037 INFO - Done: [find element: By.cssSelector: .beicon-shared-flat]
-17:46:25.047 INFO - Executing: [click: 8 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: .beicon-shared-flat]])
-17:46:25.230 INFO - Done: [click: 8 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: .beicon-shared-flat]]
-17:46:27.249 INFO - Executing: [find element: By.cssSelector: .WholeApartmentFilter-element--bathrooms .SelectOptionNumber-element:nth-of-type(2)])
-17:46:27.278 INFO - Done: [find element: By.cssSelector: .WholeApartmentFilter-element--bathrooms .SelectOptionNumber-element:nth-of-type(2)]
-17:46:27.290 INFO - Executing: [click: 9 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: .WholeApartmentFilter-element--bathrooms .SelectOptionNumber-element:nth-of-type(2)]])
-17:46:27.426 INFO - Done: [click: 9 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: .WholeApartmentFilter-element--bathrooms .SelectOptionNumber-element:nth-of-type(2)]]
-17:46:29.441 INFO - Executing: [find element: By.cssSelector: input[name=washing-machine-check]])
-17:46:29.467 INFO - Done: [find element: By.cssSelector: input[name=washing-machine-check]]
-17:46:29.476 INFO - Executing: [click: 10 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: input[name=washing-machine-check]]])
-17:46:29.619 INFO - Done: [click: 10 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: input[name=washing-machine-check]]]
-17:46:31.639 INFO - Executing: [find element: By.cssSelector: input[name=wifi-check]])
-17:46:31.698 INFO - Done: [find element: By.cssSelector: input[name=wifi-check]]
-17:46:31.706 INFO - Executing: [click: 11 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: input[name=wifi-check]]])
-17:46:31.914 INFO - Done: [click: 11 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: input[name=wifi-check]]]
-17:46:33.941 INFO - Executing: [find element: By.cssSelector: input[name=tv-check]])
-17:46:33.966 INFO - Done: [find element: By.cssSelector: input[name=tv-check]]
-17:46:33.976 INFO - Executing: [click: 12 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: input[name=tv-check]]])
-17:46:34.162 INFO - Done: [click: 12 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: input[name=tv-check]]]
-17:46:36.178 INFO - Executing: [find element: By.cssSelector: .beicon-single-bed])
-17:46:36.207 INFO - Done: [find element: By.cssSelector: .beicon-single-bed]
-17:46:36.215 INFO - Executing: [click: 13 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: .beicon-single-bed]])
-17:46:36.336 INFO - Done: [click: 13 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: .beicon-single-bed]]
-17:46:38.351 INFO - Executing: [find element: By.cssSelector: input[name=closet-check]])
-17:46:38.373 INFO - Done: [find element: By.cssSelector: input[name=closet-check]]
-17:46:38.383 INFO - Executing: [click: 14 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: input[name=closet-check]]])
-17:46:39.915 WARN - Exception thrown
-org.openqa.selenium.ElementNotVisibleException: 
-Build info: version: '3.3.1', revision: '5234b32', time: '2017-03-10 09:04:52 -0800'
-System info: host: 'crisBeroomers-PC', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.8.0-44-generic', java.version: '1.8.0_121'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=/tmp/rust_mozprofile.vB7tOZHOrV8Q, rotatable=false, timeouts={implicit=0, page load=300000, script=30000}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=52.0.1, platformVersion=4.8.0-44-generic, moz:processID=32421, browserName=firefox, platformName=linux}]
-Session ID: f2d32d45-5b9d-4120-b0fb-8c55a9f4c702
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:99)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:43)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:332)
-	at com.sun.proxy.$Proxy5.click(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:345)
-	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:64)
-	at com.sun.proxy.$Proxy6.click(Unknown Source)
-	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:30)
-	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:22)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-17:46:39.923 WARN - Exception: 
-Build info: version: '3.3.1', revision: '5234b32', time: '2017-03-10 09:04:52 -0800'
-System info: host: 'crisBeroomers-PC', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.8.0-44-generic', java.version: '1.8.0_121'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=/tmp/rust_mozprofile.vB7tOZHOrV8Q, rotatable=false, timeouts={implicit=0, page load=300000, script=30000}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=52.0.1, platformVersion=4.8.0-44-generic, moz:processID=32421, browserName=firefox, platformName=linux}]
-Session ID: f2d32d45-5b9d-4120-b0fb-8c55a9f4c702
-17:46:42.149 INFO - Executing: [find element: By.cssSelector: input[name=heating-check]])
-17:46:42.172 INFO - Done: [find element: By.cssSelector: input[name=heating-check]]
-17:46:42.186 INFO - Executing: [click: 15 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: input[name=heating-check]]])
-17:46:43.322 WARN - Exception thrown
-org.openqa.selenium.ElementNotVisibleException: 
-Build info: version: '3.3.1', revision: '5234b32', time: '2017-03-10 09:04:52 -0800'
-System info: host: 'crisBeroomers-PC', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.8.0-44-generic', java.version: '1.8.0_121'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=/tmp/rust_mozprofile.vB7tOZHOrV8Q, rotatable=false, timeouts={implicit=0, page load=300000, script=30000}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=52.0.1, platformVersion=4.8.0-44-generic, moz:processID=32421, browserName=firefox, platformName=linux}]
-Session ID: f2d32d45-5b9d-4120-b0fb-8c55a9f4c702
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:99)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:43)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:332)
-	at com.sun.proxy.$Proxy5.click(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:345)
-	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:64)
-	at com.sun.proxy.$Proxy6.click(Unknown Source)
-	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:30)
-	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:22)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-17:46:43.324 WARN - Exception: 
-Build info: version: '3.3.1', revision: '5234b32', time: '2017-03-10 09:04:52 -0800'
-System info: host: 'crisBeroomers-PC', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.8.0-44-generic', java.version: '1.8.0_121'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=/tmp/rust_mozprofile.vB7tOZHOrV8Q, rotatable=false, timeouts={implicit=0, page load=300000, script=30000}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=52.0.1, platformVersion=4.8.0-44-generic, moz:processID=32421, browserName=firefox, platformName=linux}]
-Session ID: f2d32d45-5b9d-4120-b0fb-8c55a9f4c702
-17:46:45.510 INFO - Executing: [find element: By.cssSelector: .FilterToolBar-apply])
-17:46:45.534 INFO - Done: [find element: By.cssSelector: .FilterToolBar-apply]
-17:46:45.545 INFO - Executing: [click: 16 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: .FilterToolBar-apply]])
-17:46:47.249 INFO - Done: [click: 16 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: .FilterToolBar-apply]]
-17:46:49.265 INFO - Executing: [find elements: By.cssSelector: .SearchResults])
-17:46:49.562 INFO - Done: [find elements: By.cssSelector: .SearchResults]
-17:46:49.588 INFO - Executing: [is displayed: 17 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: .SearchResults]])
-17:46:49.856 INFO - Done: [is displayed: 17 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: .SearchResults]]
-17:46:51.879 INFO - Executing: [find element: By.cssSelector: .ProductCard:nth-of-type(1)])
-17:46:51.902 INFO - Done: [find element: By.cssSelector: .ProductCard:nth-of-type(1)]
-17:46:51.912 INFO - Executing: [click: 18 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: .ProductCard:nth-of-type(1)]])
-17:46:52.017 INFO - Done: [click: 18 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: .ProductCard:nth-of-type(1)]]
-17:46:57.038 INFO - Executing: [get window handles])
-17:46:57.103 INFO - Done: [get window handles]
-17:46:57.138 INFO - Executing: [switch to window: 2147483656])
-17:46:57.172 INFO - Done: [switch to window: 2147483656]
-17:46:57.193 INFO - Executing: [find element: By.cssSelector: .BookingForm-actions-bookNow])
-17:46:59.950 INFO - Done: [find element: By.cssSelector: .BookingForm-actions-bookNow]
-17:46:59.970 INFO - Executing: [click: 19 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: .BookingForm-actions-bookNow]])
-17:47:00.593 INFO - Done: [click: 19 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: .BookingForm-actions-bookNow]]
-JavaScript error: https://torrent.beroomers.com/bundles/common/assets/view-room-ef5e09f1bf.js, line 6: TypeError: e.srcElement is undefined
-17:47:04.620 INFO - Executing: [find elements: By.cssSelector: body])
-17:47:04.926 INFO - Done: [find elements: By.cssSelector: body]
-17:47:04.938 INFO - Executing: [is displayed: 20 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: body]])
-17:47:06.428 WARN - Exception thrown
-org.openqa.selenium.StaleElementReferenceException: The element reference is stale. Either the element is no longer attached to the DOM or the page has been refreshed.
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.3.1', revision: '5234b32', time: '2017-03-10 09:04:52 -0800'
-System info: host: 'crisBeroomers-PC', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.8.0-44-generic', java.version: '1.8.0_121'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=/tmp/rust_mozprofile.vB7tOZHOrV8Q, rotatable=false, timeouts={implicit=0, page load=300000, script=30000}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=52.0.1, platformVersion=4.8.0-44-generic, moz:processID=32421, browserName=firefox, platformName=linux}]
-Session ID: f2d32d45-5b9d-4120-b0fb-8c55a9f4c702
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:99)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:43)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
-	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:315)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:332)
-	at com.sun.proxy.$Proxy5.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.isDisplayed(EventFiringWebDriver.java:386)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:64)
-	at com.sun.proxy.$Proxy6.isDisplayed(Unknown Source)
-	at org.openqa.selenium.remote.server.handler.GetElementDisplayed.call(GetElementDisplayed.java:32)
-	at org.openqa.selenium.remote.server.handler.GetElementDisplayed.call(GetElementDisplayed.java:23)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-17:47:06.430 WARN - Exception: The element reference is stale. Either the element is no longer attached to the DOM or the page has been refreshed.
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.3.1', revision: '5234b32', time: '2017-03-10 09:04:52 -0800'
-System info: host: 'crisBeroomers-PC', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.8.0-44-generic', java.version: '1.8.0_121'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=/tmp/rust_mozprofile.vB7tOZHOrV8Q, rotatable=false, timeouts={implicit=0, page load=300000, script=30000}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=52.0.1, platformVersion=4.8.0-44-generic, moz:processID=32421, browserName=firefox, platformName=linux}]
-Session ID: f2d32d45-5b9d-4120-b0fb-8c55a9f4c702
-17:47:07.387 INFO - Executing: [find elements: By.cssSelector: body])
-17:47:08.414 INFO - Done: [find elements: By.cssSelector: body]
-17:47:08.437 INFO - Executing: [is displayed: 21 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: body]])
-17:47:08.881 INFO - Done: [is displayed: 21 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: body]]
-17:47:10.917 INFO - Executing: [find element: By.cssSelector: .login-button])
-17:47:10.986 INFO - Done: [find element: By.cssSelector: .login-button]
-17:47:10.997 INFO - Executing: [click: 22 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: .login-button]])
-17:47:11.262 INFO - Done: [click: 22 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: .login-button]]
-17:47:14.284 INFO - Executing: [find element: By.cssSelector: #loginUserNameId])
-17:47:14.309 INFO - Done: [find element: By.cssSelector: #loginUserNameId]
-17:47:14.322 INFO - Executing: [send keys: 23 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: #loginUserNameId], [s, c, o, t, t, r, y, d, e, r, @, a, n, d, r, o, m, e, d, a, ., c, o, m]])
-17:47:14.853 INFO - Done: [send keys: 23 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: #loginUserNameId], [s, c, o, t, t, r, y, d, e, r, @, a, n, d, r, o, m, e, d, a, ., c, o, m]]
-17:47:17.871 INFO - Executing: [find element: By.cssSelector: #loginPasswordId])
-17:47:17.894 INFO - Done: [find element: By.cssSelector: #loginPasswordId]
-17:47:17.910 INFO - Executing: [send keys: 24 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: #loginPasswordId], [s, c, o, t, t, r, y, d, e, r]])
-17:47:18.179 INFO - Done: [send keys: 24 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: #loginPasswordId], [s, c, o, t, t, r, y, d, e, r]]
-17:47:21.196 INFO - Executing: [find element: By.cssSelector: .Login-buttonLogin])
-17:47:21.242 INFO - Done: [find element: By.cssSelector: .Login-buttonLogin]
-17:47:21.251 INFO - Executing: [click: 25 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: .Login-buttonLogin]])
-17:47:21.436 INFO - Done: [click: 25 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: .Login-buttonLogin]]
-17:47:24.455 INFO - Executing: [find elements: By.cssSelector: #payment-form])
-17:47:24.674 INFO - Done: [find elements: By.cssSelector: #payment-form]
-17:47:25.190 INFO - Executing: [find elements: By.cssSelector: #payment-form])
-17:47:25.835 INFO - Done: [find elements: By.cssSelector: #payment-form]
-17:47:28.851 INFO - Executing: [find element: By.cssSelector: #payment_number])
-17:47:28.878 INFO - Done: [find element: By.cssSelector: #payment_number]
-17:47:28.890 INFO - Executing: [send keys: 27 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: #payment_number], [4, 2, 4, 2, 4, 2, 4, 2, 4, 2, 4, 2, 4, 2, 4, 2, 4, 2, 4, 2]])
-17:47:29.215 INFO - Done: [send keys: 27 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: #payment_number], [4, 2, 4, 2, 4, 2, 4, 2, 4, 2, 4, 2, 4, 2, 4, 2, 4, 2, 4, 2]]
-17:47:32.227 INFO - Executing: [find element: By.cssSelector: #payment_expirationMonth option[value="6"]])
-17:47:32.295 INFO - Done: [find element: By.cssSelector: #payment_expirationMonth option[value="6"]]
-17:47:32.309 INFO - Executing: [click: 28 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: #payment_expirationMonth option[value="6"]]])
-17:47:32.486 INFO - Done: [click: 28 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: #payment_expirationMonth option[value="6"]]]
-17:47:35.508 INFO - Executing: [find element: By.cssSelector: #payment_expirationYear option[value="2020"]])
-17:47:35.536 INFO - Done: [find element: By.cssSelector: #payment_expirationYear option[value="2020"]]
-17:47:35.545 INFO - Executing: [click: 29 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: #payment_expirationYear option[value="2020"]]])
-17:47:35.684 INFO - Done: [click: 29 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: #payment_expirationYear option[value="2020"]]]
-17:47:38.698 INFO - Executing: [find element: By.cssSelector: #payment_cvc])
-17:47:38.721 INFO - Done: [find element: By.cssSelector: #payment_cvc]
-17:47:38.732 INFO - Executing: [send keys: 30 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: #payment_cvc], [6, 7, 8]])
-17:47:38.907 INFO - Done: [send keys: 30 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: #payment_cvc], [6, 7, 8]]
-17:47:41.924 INFO - Executing: [find element: By.cssSelector: button#payment_save])
-17:47:41.945 INFO - Done: [find element: By.cssSelector: button#payment_save]
-17:47:41.953 INFO - Executing: [click: 31 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: button#payment_save]])
-17:47:42.100 INFO - Done: [click: 31 [[FirefoxDriver: firefox on ANY (f2d32d45-5b9d-4120-b0fb-8c55a9f4c702)] -> css selector: button#payment_save]]
-17:47:45.115 INFO - Executing: [find elements: By.cssSelector: #payment-form])
-17:47:45.141 INFO - Done: [find elements: By.cssSelector: #payment-form]
-17:47:45.655 INFO - Executing: [find elements: By.cssSelector: #payment-form])
-17:47:45.676 INFO - Done: [find elements: By.cssSelector: #payment-form]
-17:47:46.190 INFO - Executing: [find elements: By.cssSelector: #payment-form])
-17:47:46.249 INFO - Done: [find elements: By.cssSelector: #payment-form]
-17:47:46.763 INFO - Executing: [find elements: By.cssSelector: #payment-form])
-17:47:46.784 INFO - Done: [find elements: By.cssSelector: #payment-form]
-17:47:47.295 INFO - Executing: [find elements: By.cssSelector: #payment-form])
-17:47:47.321 INFO - Done: [find elements: By.cssSelector: #payment-form]
-17:47:47.833 INFO - Executing: [find elements: By.cssSelector: #payment-form])
-17:47:47.855 INFO - Done: [find elements: By.cssSelector: #payment-form]
-17:47:48.370 INFO - Executing: [find elements: By.cssSelector: #payment-form])
-17:47:48.400 INFO - Done: [find elements: By.cssSelector: #payment-form]
-17:47:48.914 INFO - Executing: [find elements: By.cssSelector: #payment-form])
-17:47:48.934 INFO - Done: [find elements: By.cssSelector: #payment-form]
-17:47:49.461 INFO - Executing: [find elements: By.cssSelector: #payment-form])
-17:47:49.750 INFO - Done: [find elements: By.cssSelector: #payment-form]
-17:47:52.766 INFO - Executing: [delete session: 27c28ac8-988d-4a1c-8c2e-d7a8bfb25864])
-1490975272776	Marionette	INFO	New connections will no longer be accepted
-[Child 32482] WARNING: pipe error (30): Conexión reinicializada por la máquina remota: file /build/firefox-ZWwcnj/firefox-52.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 322
-[Child 32482] WARNING: pipe error (3): Conexión reinicializada por la máquina remota: file /build/firefox-ZWwcnj/firefox-52.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 322
-[Child 32482] ###!!! ABORT: Aborting on channel error.: file /build/firefox-ZWwcnj/firefox-52.0.1+build2/ipc/glue/MessageChannel.cpp, line 2143
-[Child 32482] ###!!! ABORT: Aborting on channel error.: file /build/firefox-ZWwcnj/firefox-52.0.1+build2/ipc/glue/MessageChannel.cpp, line 2143
-17:47:53.595 INFO - Done: [delete session: 27c28ac8-988d-4a1c-8c2e-d7a8bfb25864]
+2017-04-03 16:36:04.632:INFO:osjs.Server:main: jetty-9.2.20.v20161216
+2017-04-03 16:36:04.752:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@53b32d7{/,null,AVAILABLE}
+2017-04-03 16:36:04.857:INFO:osjs.AbstractConnector:main: Started ServerConnector@3b00f243{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2017-04-03 16:36:04.861:INFO:osjs.Server:main: Started @1590ms
+16:36:04.861 INFO - Selenium Server is up and running
+16:36:05.700 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+16:36:05.796 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Publicar Propiedad, browserName=firefox, javascriptEnabled=true, chromeOptions={args=[start-maximized]}, platform=ANY}]])
+16:36:05.852 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Publicar Propiedad, browserName=firefox, javascriptEnabled=true, chromeOptions={args=[start-maximized]}, platform=ANY}]
+1491230167132	geckodriver	INFO	Listening on 127.0.0.1:20636
+1491230167645	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.55mtX9Do748j
+1491230167649	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args []
+1491230167689	geckodriver::marionette	INFO	Connecting to Marionette on localhost:37365
+1491230172820	Marionette	INFO	Listening on port 37365
+16:36:20.343 INFO - Detected dialect: W3C
+16:36:20.544 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Publicar Propiedad, browserName=firefox, javascriptEnabled=true, chromeOptions={args=[start-maximized]}, platform=ANY}]]
+16:36:20.659 INFO - Executing: [get: https://torrent.beroomers.com/es/])
+16:36:31.451 INFO - Done: [get: https://torrent.beroomers.com/es/]
+16:36:31.569 INFO - Executing: [find elements: By.cssSelector: body])
+16:36:31.818 INFO - Done: [find elements: By.cssSelector: body]
+16:36:31.841 INFO - Executing: [is displayed: 0 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: body]])
+16:36:32.384 INFO - Done: [is displayed: 0 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: body]]
+16:36:36.432 INFO - Executing: [find elements: By.cssSelector: body])
+16:36:36.506 INFO - Done: [find elements: By.cssSelector: body]
+16:36:36.528 INFO - Executing: [is displayed: 0 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: body]])
+16:36:36.800 INFO - Done: [is displayed: 0 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: body]]
+16:36:36.845 INFO - Executing: [find element: By.cssSelector: .Menu-lodging])
+16:36:36.895 INFO - Done: [find element: By.cssSelector: .Menu-lodging]
+16:36:36.914 INFO - Executing: [click: 1 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: .Menu-lodging]])
+16:36:37.605 INFO - Done: [click: 1 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: .Menu-lodging]]
+16:36:41.693 INFO - Executing: [find element: By.cssSelector: .Menu-li:nth-of-type(2)])
+16:36:41.839 INFO - Done: [find element: By.cssSelector: .Menu-li:nth-of-type(2)]
+16:36:41.855 INFO - Executing: [click: 2 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: .Menu-li:nth-of-type(2)]])
+16:36:42.477 INFO - Done: [click: 2 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: .Menu-li:nth-of-type(2)]]
+16:36:44.507 INFO - Executing: [find elements: By.cssSelector: form.Login])
+16:36:44.535 INFO - Done: [find elements: By.cssSelector: form.Login]
+16:36:44.547 INFO - Executing: [is displayed: 3 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: form.Login]])
+16:36:44.653 INFO - Done: [is displayed: 3 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: form.Login]]
+16:36:46.672 INFO - Executing: [find element: By.cssSelector: #loginUserNameId])
+16:36:46.701 INFO - Done: [find element: By.cssSelector: #loginUserNameId]
+16:36:46.718 INFO - Executing: [send keys: 4 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #loginUserNameId], [s, a, r, a, r, y, d, e, r, @, a, n, d, r, o, m, e, d, a, ., c, o, m]])
+16:36:47.195 INFO - Done: [send keys: 4 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #loginUserNameId], [s, a, r, a, r, y, d, e, r, @, a, n, d, r, o, m, e, d, a, ., c, o, m]]
+16:36:49.210 INFO - Executing: [find element: By.cssSelector: #loginPasswordId])
+16:36:49.255 INFO - Done: [find element: By.cssSelector: #loginPasswordId]
+16:36:49.267 INFO - Executing: [send keys: 5 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #loginPasswordId], [s, a, r, a, r, y, d, e, r]])
+16:36:49.501 INFO - Done: [send keys: 5 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #loginPasswordId], [s, a, r, a, r, y, d, e, r]]
+16:36:51.522 INFO - Executing: [find element: By.cssSelector: .Login-buttonLogin])
+16:36:51.599 INFO - Done: [find element: By.cssSelector: .Login-buttonLogin]
+16:36:51.653 INFO - Executing: [click: 6 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: .Login-buttonLogin]])
+16:36:51.849 INFO - Done: [click: 6 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: .Login-buttonLogin]]
+16:36:55.877 INFO - Executing: [find elements: By.cssSelector: .Avatar])
+16:36:55.910 INFO - Done: [find elements: By.cssSelector: .Avatar]
+16:36:55.925 INFO - Executing: [is displayed: 7 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: .Avatar]])
+16:36:56.038 INFO - Done: [is displayed: 7 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: .Avatar]]
+16:36:58.061 INFO - Executing: [find element: By.cssSelector: .Avatar-name])
+16:36:58.086 INFO - Done: [find element: By.cssSelector: .Avatar-name]
+16:36:58.102 INFO - Executing: [click: 8 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: .Avatar-name]])
+16:36:58.269 INFO - Done: [click: 8 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: .Avatar-name]]
+16:37:00.290 INFO - Executing: [find element: By.cssSelector: .SubMenu-li:nth-of-type(2)])
+16:37:00.353 INFO - Done: [find element: By.cssSelector: .SubMenu-li:nth-of-type(2)]
+16:37:00.367 INFO - Executing: [click: 9 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: .SubMenu-li:nth-of-type(2)]])
+16:37:00.483 INFO - Done: [click: 9 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: .SubMenu-li:nth-of-type(2)]]
+16:37:04.508 INFO - Executing: [find elements: By.cssSelector: body])
+16:37:04.544 INFO - Done: [find elements: By.cssSelector: body]
+16:37:04.554 INFO - Executing: [is displayed: 10 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: body]])
+16:37:04.640 INFO - Done: [is displayed: 10 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: body]]
+16:37:06.658 INFO - Executing: [find element: By.cssSelector: .Tabs-Controls-Actions .btn])
+16:37:06.696 INFO - Done: [find element: By.cssSelector: .Tabs-Controls-Actions .btn]
+16:37:06.710 INFO - Executing: [click: 11 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: .Tabs-Controls-Actions .btn]])
+16:37:06.842 INFO - Done: [click: 11 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: .Tabs-Controls-Actions .btn]]
+16:37:08.912 INFO - Executing: [find elements: By.cssSelector: #basics])
+16:37:09.111 INFO - Done: [find elements: By.cssSelector: #basics]
+16:37:09.624 INFO - Executing: [find elements: By.cssSelector: #basics])
+16:37:11.010 INFO - Done: [find elements: By.cssSelector: #basics]
+16:37:11.024 INFO - Executing: [is displayed: 12 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #basics]])
+16:37:11.777 INFO - Done: [is displayed: 12 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #basics]]
+16:37:13.800 INFO - Executing: [find element: By.cssSelector: .beicon-shared-flat])
+16:37:14.254 INFO - Done: [find element: By.cssSelector: .beicon-shared-flat]
+16:37:14.264 INFO - Executing: [click: 13 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: .beicon-shared-flat]])
+16:37:15.501 INFO - Done: [click: 13 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: .beicon-shared-flat]]
+16:37:17.518 INFO - Executing: [find element: By.cssSelector: #property_draft_bedrooms])
+16:37:17.567 INFO - Done: [find element: By.cssSelector: #property_draft_bedrooms]
+16:37:17.582 INFO - Executing: [send keys: 14 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #property_draft_bedrooms], [2]])
+16:37:17.718 INFO - Done: [send keys: 14 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #property_draft_bedrooms], [2]]
+16:37:19.735 INFO - Executing: [find element: By.cssSelector: #property_draft_bathrooms])
+16:37:19.763 INFO - Done: [find element: By.cssSelector: #property_draft_bathrooms]
+16:37:19.774 INFO - Executing: [send keys: 15 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #property_draft_bathrooms], [1]])
+16:37:20.190 INFO - Done: [send keys: 15 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #property_draft_bathrooms], [1]]
+16:37:22.206 INFO - Executing: [find element: By.cssSelector: #property_draft_toilets])
+16:37:22.229 INFO - Done: [find element: By.cssSelector: #property_draft_toilets]
+16:37:22.239 INFO - Executing: [send keys: 16 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #property_draft_toilets], [1]])
+16:37:22.578 INFO - Done: [send keys: 16 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #property_draft_toilets], [1]]
+16:37:24.591 INFO - Executing: [find element: By.cssSelector: #property_draft_terraces])
+16:37:24.751 INFO - Done: [find element: By.cssSelector: #property_draft_terraces]
+16:37:24.762 INFO - Executing: [send keys: 17 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #property_draft_terraces], [0]])
+16:37:25.105 INFO - Done: [send keys: 17 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #property_draft_terraces], [0]]
+16:37:27.121 INFO - Executing: [find element: By.cssSelector: #property_draft_usableFloorSpace])
+16:37:27.147 INFO - Done: [find element: By.cssSelector: #property_draft_usableFloorSpace]
+16:37:27.159 INFO - Executing: [send keys: 18 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #property_draft_usableFloorSpace], [8, 0]])
+16:37:27.417 INFO - Done: [send keys: 18 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #property_draft_usableFloorSpace], [8, 0]]
+16:37:29.436 INFO - Executing: [execute script: var passedArgs = Array.prototype.slice.call(arguments,0); return function () {
+        	document.querySelector('a.MultiStepForm-button').click()
+ 		}.apply(window, passedArgs);, []])
+16:37:29.713 INFO - Done: [execute script: var passedArgs = Array.prototype.slice.call(arguments,0); return function () {
+        	document.querySelector('a.MultiStepForm-button').click()
+ 		}.apply(window, passedArgs);, []]
+16:37:33.733 INFO - Executing: [find elements: By.cssSelector: #location])
+16:37:33.760 INFO - Done: [find elements: By.cssSelector: #location]
+16:37:33.774 INFO - Executing: [is displayed: 19 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #location]])
+16:37:33.867 INFO - Done: [is displayed: 19 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #location]]
+16:37:35.882 INFO - Executing: [find element: By.cssSelector: #property_draft_streetType option[value="1"]])
+16:37:35.907 INFO - Done: [find element: By.cssSelector: #property_draft_streetType option[value="1"]]
+16:37:35.916 INFO - Executing: [click: 20 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #property_draft_streetType option[value="1"]]])
+16:37:36.327 INFO - Done: [click: 20 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #property_draft_streetType option[value="1"]]]
+16:37:38.344 INFO - Executing: [find element: By.cssSelector: #property_draft_streetName])
+16:37:38.368 INFO - Done: [find element: By.cssSelector: #property_draft_streetName]
+16:37:38.383 INFO - Executing: [send keys: 21 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #property_draft_streetName], [B, l, a, s, c, o,  , I, b, a, ñ, e, z]])
+16:37:38.651 INFO - Done: [send keys: 21 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #property_draft_streetName], [B, l, a, s, c, o,  , I, b, a, ñ, e, z]]
+16:37:40.666 INFO - Executing: [find element: By.cssSelector: #property_draft_streetNumber])
+16:37:40.689 INFO - Done: [find element: By.cssSelector: #property_draft_streetNumber]
+16:37:40.700 INFO - Executing: [send keys: 22 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #property_draft_streetNumber], [1, 2]])
+16:37:41.031 INFO - Done: [send keys: 22 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #property_draft_streetNumber], [1, 2]]
+16:37:43.046 INFO - Executing: [find element: By.cssSelector: #property_draft_city])
+16:37:43.068 INFO - Done: [find element: By.cssSelector: #property_draft_city]
+16:37:43.081 INFO - Executing: [send keys: 23 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #property_draft_city], [V, a, l, e, n, c, i, a, ,,  , S, p, a, i, n]])
+16:37:43.531 INFO - Done: [send keys: 23 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #property_draft_city], [V, a, l, e, n, c, i, a, ,,  , S, p, a, i, n]]
+16:37:45.546 INFO - Executing: [find element: By.cssSelector: .pac-container .pac-item .pac-item-query])
+16:37:45.612 INFO - Done: [find element: By.cssSelector: .pac-container .pac-item .pac-item-query]
+16:37:45.628 INFO - Executing: [click: 24 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: .pac-container .pac-item .pac-item-query]])
+16:37:45.885 INFO - Done: [click: 24 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: .pac-container .pac-item .pac-item-query]]
+16:37:47.902 INFO - Executing: [find element: By.cssSelector: #property_draft_zip])
+16:37:47.934 INFO - Done: [find element: By.cssSelector: #property_draft_zip]
+16:37:47.945 INFO - Executing: [send keys: 25 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #property_draft_zip], [4, 6, 0, 1, 0]])
+16:37:48.123 INFO - Done: [send keys: 25 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #property_draft_zip], [4, 6, 0, 1, 0]]
+16:37:50.138 INFO - Executing: [find element: By.cssSelector: .input-group-btn .btn])
+16:37:50.160 INFO - Done: [find element: By.cssSelector: .input-group-btn .btn]
+16:37:50.169 INFO - Executing: [click: 26 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: .input-group-btn .btn]])
+16:37:50.394 INFO - Done: [click: 26 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: .input-group-btn .btn]]
+16:37:56.418 INFO - Executing: [execute script: var passedArgs = Array.prototype.slice.call(arguments,0); return function () {
+        	document.querySelector('a.MultiStepForm-button').click()
+ 		}.apply(window, passedArgs);, []])
+16:37:56.613 INFO - Done: [execute script: var passedArgs = Array.prototype.slice.call(arguments,0); return function () {
+        	document.querySelector('a.MultiStepForm-button').click()
+ 		}.apply(window, passedArgs);, []]
+16:38:00.633 INFO - Executing: [find elements: By.cssSelector: #descriptions])
+16:38:00.659 INFO - Done: [find elements: By.cssSelector: #descriptions]
+16:38:00.670 INFO - Executing: [is displayed: 27 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #descriptions]])
+16:38:00.758 INFO - Done: [is displayed: 27 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #descriptions]]
+16:38:02.776 INFO - Executing: [find element: By.cssSelector: #property_draft_title])
+16:38:02.800 INFO - Done: [find element: By.cssSelector: #property_draft_title]
+16:38:02.817 INFO - Executing: [send keys: 28 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #property_draft_title], [P, i, s, o,  , e, n,  , A, v, .,  , B, l, a, s, c, o,  , I, b, a, ñ, e, z]])
+16:38:03.130 INFO - Done: [send keys: 28 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #property_draft_title], [P, i, s, o,  , e, n,  , A, v, .,  , B, l, a, s, c, o,  , I, b, a, ñ, e, z]]
+16:38:05.146 INFO - Executing: [find element: By.cssSelector: #property_draft_amenities_383])
+16:38:05.168 INFO - Done: [find element: By.cssSelector: #property_draft_amenities_383]
+16:38:05.178 INFO - Executing: [click: 29 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #property_draft_amenities_383]])
+16:38:05.369 INFO - Done: [click: 29 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #property_draft_amenities_383]]
+16:38:07.388 INFO - Executing: [find element: By.cssSelector: #property_draft_amenities_386])
+16:38:07.409 INFO - Done: [find element: By.cssSelector: #property_draft_amenities_386]
+16:38:07.418 INFO - Executing: [click: 30 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #property_draft_amenities_386]])
+16:38:07.563 INFO - Done: [click: 30 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #property_draft_amenities_386]]
+16:38:09.586 INFO - Executing: [find element: By.cssSelector: #property_draft_amenities_377])
+16:38:09.606 INFO - Done: [find element: By.cssSelector: #property_draft_amenities_377]
+16:38:09.614 INFO - Executing: [click: 31 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #property_draft_amenities_377]])
+16:38:09.773 INFO - Done: [click: 31 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #property_draft_amenities_377]]
+16:38:11.785 INFO - Executing: [find element: By.cssSelector: #property_draft_amenities_388])
+16:38:11.808 INFO - Done: [find element: By.cssSelector: #property_draft_amenities_388]
+16:38:11.816 INFO - Executing: [click: 32 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #property_draft_amenities_388]])
+16:38:11.957 INFO - Done: [click: 32 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #property_draft_amenities_388]]
+16:38:13.971 INFO - Executing: [execute script: var passedArgs = Array.prototype.slice.call(arguments,0); return function () {
+        	document.querySelector('a.MultiStepForm-button').click()
+ 		}.apply(window, passedArgs);, []])
+16:38:14.107 INFO - Done: [execute script: var passedArgs = Array.prototype.slice.call(arguments,0); return function () {
+        	document.querySelector('a.MultiStepForm-button').click()
+ 		}.apply(window, passedArgs);, []]
+16:38:18.130 INFO - Executing: [find elements: By.cssSelector: #rooms])
+16:38:18.151 INFO - Done: [find elements: By.cssSelector: #rooms]
+16:38:18.159 INFO - Executing: [is displayed: 33 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #rooms]])
+16:38:18.277 INFO - Done: [is displayed: 33 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #rooms]]
+16:38:20.292 INFO - Executing: [find element: By.cssSelector: .RoomCollection-Actions .btn])
+16:38:20.315 INFO - Done: [find element: By.cssSelector: .RoomCollection-Actions .btn]
+16:38:20.326 INFO - Executing: [click: 34 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: .RoomCollection-Actions .btn]])
+16:38:21.437 INFO - Done: [click: 34 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: .RoomCollection-Actions .btn]]
+16:38:23.451 INFO - Executing: [find element: By.cssSelector: #property_draft_rooms_1_price])
+16:38:23.471 INFO - Done: [find element: By.cssSelector: #property_draft_rooms_1_price]
+16:38:23.484 INFO - Executing: [send keys: 35 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #property_draft_rooms_1_price], [2, 5, 0]])
+16:38:23.599 INFO - Done: [send keys: 35 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #property_draft_rooms_1_price], [2, 5, 0]]
+16:38:25.613 INFO - Executing: [find element: By.cssSelector: #property_draft_rooms_1_deposit])
+16:38:25.634 INFO - Done: [find element: By.cssSelector: #property_draft_rooms_1_deposit]
+16:38:25.644 INFO - Executing: [send keys: 36 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #property_draft_rooms_1_deposit], [5, 0, 0]])
+16:38:26.098 INFO - Done: [send keys: 36 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #property_draft_rooms_1_deposit], [5, 0, 0]]
+16:38:28.110 INFO - Executing: [find element: By.cssSelector: #property_draft_rooms_1_minMonths])
+16:38:28.131 INFO - Done: [find element: By.cssSelector: #property_draft_rooms_1_minMonths]
+16:38:28.141 INFO - Executing: [send keys: 37 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #property_draft_rooms_1_minMonths], [1]])
+16:38:28.484 INFO - Done: [send keys: 37 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #property_draft_rooms_1_minMonths], [1]]
+16:38:30.499 INFO - Executing: [find element: By.cssSelector: #property_draft_rooms_1_number_of_beds])
+16:38:30.522 INFO - Done: [find element: By.cssSelector: #property_draft_rooms_1_number_of_beds]
+16:38:30.539 INFO - Executing: [send keys: 38 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #property_draft_rooms_1_number_of_beds], [1]])
+16:38:30.817 INFO - Done: [send keys: 38 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #property_draft_rooms_1_number_of_beds], [1]]
+16:38:32.837 INFO - Executing: [find element: By.cssSelector: #property_draft_rooms_1_amenities_366])
+16:38:32.860 INFO - Done: [find element: By.cssSelector: #property_draft_rooms_1_amenities_366]
+16:38:32.873 INFO - Executing: [click: 39 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #property_draft_rooms_1_amenities_366]])
+16:38:33.034 INFO - Done: [click: 39 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #property_draft_rooms_1_amenities_366]]
+16:38:35.049 INFO - Executing: [find element: By.cssSelector: #property_draft_rooms_1_amenities_368])
+16:38:35.076 INFO - Done: [find element: By.cssSelector: #property_draft_rooms_1_amenities_368]
+16:38:35.087 INFO - Executing: [click: 40 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #property_draft_rooms_1_amenities_368]])
+16:38:35.183 INFO - Done: [click: 40 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #property_draft_rooms_1_amenities_368]]
+16:38:37.200 INFO - Executing: [execute script: var passedArgs = Array.prototype.slice.call(arguments,0); return function () {
+        	document.querySelector('a.MultiStepForm-button').click()
+ 		}.apply(window, passedArgs);, []])
+16:38:37.349 INFO - Done: [execute script: var passedArgs = Array.prototype.slice.call(arguments,0); return function () {
+        	document.querySelector('a.MultiStepForm-button').click()
+ 		}.apply(window, passedArgs);, []]
+16:38:37.370 INFO - Executing: [find element: By.cssSelector: .MultiStepForm-stepNavigation a[href="#photos"]])
+16:38:37.423 INFO - Done: [find element: By.cssSelector: .MultiStepForm-stepNavigation a[href="#photos"]]
+16:38:37.434 INFO - Executing: [click: 41 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: .MultiStepForm-stepNavigation a[href="#photos"]]])
+16:38:37.564 INFO - Done: [click: 41 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: .MultiStepForm-stepNavigation a[href="#photos"]]]
+16:38:41.583 INFO - Executing: [find elements: By.cssSelector: #photos])
+16:38:41.604 INFO - Done: [find elements: By.cssSelector: #photos]
+16:38:41.613 INFO - Executing: [is displayed: 42 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #photos]])
+16:38:41.696 INFO - Done: [is displayed: 42 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #photos]]
+16:38:43.712 INFO - Executing: [find element: By.cssSelector: input[type=file]])
+16:38:43.732 INFO - Done: [find element: By.cssSelector: input[type=file]]
+16:38:43.749 INFO - Executing: [send keys: 43 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: input[type=file]], [/, h, o, m, e, /, c, r, i, s, /, D, e, s, c, a, r, g, a, s, /, a, v, b, l, a, s, c, o, ., j, p, g]])
+16:38:43.829 INFO - Done: [send keys: 43 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: input[type=file]], [/, h, o, m, e, /, c, r, i, s, /, D, e, s, c, a, r, g, a, s, /, a, v, b, l, a, s, c, o, ., j, p, g]]
+16:38:47.844 INFO - Executing: [execute script: var passedArgs = Array.prototype.slice.call(arguments,0); return function () {
+        	document.querySelector('a.MultiStepForm-button').click()
+ 		}.apply(window, passedArgs);, []])
+16:38:48.189 INFO - Done: [execute script: var passedArgs = Array.prototype.slice.call(arguments,0); return function () {
+        	document.querySelector('a.MultiStepForm-button').click()
+ 		}.apply(window, passedArgs);, []]
+16:38:52.204 INFO - Executing: [find elements: By.cssSelector: #conditions])
+16:38:52.228 INFO - Done: [find elements: By.cssSelector: #conditions]
+16:38:52.237 INFO - Executing: [is displayed: 44 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #conditions]])
+16:38:52.320 INFO - Done: [is displayed: 44 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #conditions]]
+16:38:54.337 INFO - Executing: [find element: By.cssSelector: #property_draft_allowedGenders])
+16:38:54.356 INFO - Done: [find element: By.cssSelector: #property_draft_allowedGenders]
+16:38:54.365 INFO - Executing: [click: 45 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #property_draft_allowedGenders]])
+16:38:54.619 INFO - Done: [click: 45 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #property_draft_allowedGenders]]
+16:38:56.630 INFO - Executing: [find element: By.cssSelector: #property_draft_allowedGenders option:nth-of-type(2)])
+16:38:56.668 INFO - Done: [find element: By.cssSelector: #property_draft_allowedGenders option:nth-of-type(2)]
+16:38:56.678 INFO - Executing: [click: 46 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #property_draft_allowedGenders option:nth-of-type(2)]])
+16:38:56.839 INFO - Done: [click: 46 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #property_draft_allowedGenders option:nth-of-type(2)]]
+16:38:58.853 INFO - Executing: [execute script: var passedArgs = Array.prototype.slice.call(arguments,0); return function () {
+        	document.querySelector('a.MultiStepForm-button').click()
+ 		}.apply(window, passedArgs);, []])
+16:38:59.015 INFO - Done: [execute script: var passedArgs = Array.prototype.slice.call(arguments,0); return function () {
+        	document.querySelector('a.MultiStepForm-button').click()
+ 		}.apply(window, passedArgs);, []]
+16:39:03.035 INFO - Executing: [find elements: By.cssSelector: #availabilities])
+16:39:03.057 INFO - Done: [find elements: By.cssSelector: #availabilities]
+16:39:03.066 INFO - Executing: [is displayed: 47 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #availabilities]])
+16:39:03.161 INFO - Done: [is displayed: 47 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: #availabilities]]
+16:39:07.177 INFO - Executing: [find element: By.cssSelector: .MultiStepForm-ActionButton-CreateProperty])
+16:39:07.199 INFO - Done: [find element: By.cssSelector: .MultiStepForm-ActionButton-CreateProperty]
+16:39:07.207 INFO - Executing: [click: 48 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: .MultiStepForm-ActionButton-CreateProperty]])
+16:39:07.282 INFO - Done: [click: 48 [[FirefoxDriver: firefox on ANY (02dcc9ff-c687-4faa-9dc7-75c87be8371a)] -> css selector: .MultiStepForm-ActionButton-CreateProperty]]
+16:39:09.300 INFO - Executing: [find elements: By.cssSelector: .MultiStepForm])
+16:39:09.321 INFO - Done: [find elements: By.cssSelector: .MultiStepForm]
+16:39:09.833 INFO - Executing: [find elements: By.cssSelector: .MultiStepForm])
+16:39:09.859 INFO - Done: [find elements: By.cssSelector: .MultiStepForm]
+16:39:10.371 INFO - Executing: [find elements: By.cssSelector: .MultiStepForm])
+16:39:10.396 INFO - Done: [find elements: By.cssSelector: .MultiStepForm]
+16:39:10.910 INFO - Executing: [find elements: By.cssSelector: .MultiStepForm])
+16:39:10.933 INFO - Done: [find elements: By.cssSelector: .MultiStepForm]
+16:39:11.447 INFO - Executing: [find elements: By.cssSelector: .MultiStepForm])
+16:39:11.638 INFO - Done: [find elements: By.cssSelector: .MultiStepForm]

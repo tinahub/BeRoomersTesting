@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="6">
+
+  <testsuite name="publicar_propiedad"
+    errors="0" failures="0" hostname="" id="" package="publicar_propiedad" skipped="0"
+    tests="6" time="188.5" timestamp="Mon, 03 Apr 2017 14:36:04 GMT">
+  
+    <testcase name="Abrir página Beroomers" classname="publicar_propiedad" time="31.28" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Acceder a la Home Landlord" classname="publicar_propiedad" time="5.209" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Conectarse como Landlord" classname="publicar_propiedad" time="14.23" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Acceder a la Gestión de Propiedades" classname="publicar_propiedad" time="8.630" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Acceder al formulario de Añadir Propiedad" classname="publicar_propiedad" time="4.358" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Completar formulario de Añadir Propiedad" classname="publicar_propiedad" time="124.8" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

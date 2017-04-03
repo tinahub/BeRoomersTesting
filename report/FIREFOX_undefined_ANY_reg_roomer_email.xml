@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
+            failures="0"
             tests="5">
 
   <testsuite name="reg_roomer_email"
-    errors="0" failures="1" hostname="" id="" package="reg_roomer_email" skipped="0"
-    tests="5" time="117.1" timestamp="Fri, 31 Mar 2017 08:40:36 GMT">
+    errors="0" failures="0" hostname="" id="" package="reg_roomer_email" skipped="0"
+    tests="5" time="60.86" timestamp="Fri, 31 Mar 2017 15:53:35 GMT">
   
-    <testcase name="Abrir página Beroomers" classname="reg_roomer_email" time="34.86" assertions="1">
+    <testcase name="Abrir página Beroomers" classname="reg_roomer_email" time="26.42" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Abrir formulario de Sign Up" classname="reg_roomer_email" time="3.258" assertions="1">
+    <testcase name="Abrir formulario de Sign Up" classname="reg_roomer_email" time="4.125" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Abrir formulario de Signup Email" classname="reg_roomer_email" time="6.337" assertions="1">
+    <testcase name="Abrir formulario de Signup Email" classname="reg_roomer_email" time="3.192" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Comprobar que form no hace submit si hay campos vacíos" classname="reg_roomer_email" time="40.73" assertions="8">
+    <testcase name="Comprobar que form no hace submit si hay campos vacíos" classname="reg_roomer_email" time="20.63" assertions="8">
 
     
 
@@ -41,11 +41,9 @@
     
     </testcase>
   
-    <testcase name="Comprobar que Signup Email funciona" classname="reg_roomer_email" time="31.95" assertions="3">
+    <testcase name="Comprobar que Signup Email funciona" classname="reg_roomer_email" time="6.492" assertions="2">
 
     
-
-      <failure message="Timed out while waiting for element &lt;.SignupStepFinish&gt; to be present for 3000 milliseconds.">    at Object.module.exports.Comprobar que Signup Email funciona (/home/cris/Escritorio/project/test/reg_roomer_email.js:77:4)</failure>
 
     
     </testcase>

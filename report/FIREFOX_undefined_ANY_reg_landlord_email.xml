@@ -5,24 +5,24 @@
 
   <testsuite name="reg_landlord_email"
     errors="0" failures="0" hostname="" id="" package="reg_landlord_email" skipped="0"
-    tests="5" time="62.51" timestamp="Thu, 30 Mar 2017 15:20:17 GMT">
+    tests="5" time="62.04" timestamp="Fri, 31 Mar 2017 15:52:21 GMT">
   
-    <testcase name="Abrir página Beroomers" classname="reg_landlord_email" time="28.21" assertions="1">
+    <testcase name="Abrir página Beroomers" classname="reg_landlord_email" time="27.27" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Abrir formulario de Sign Up" classname="reg_landlord_email" time="4.746" assertions="1">
+    <testcase name="Abrir formulario de Sign Up" classname="reg_landlord_email" time="3.776" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Abrir formulario de Signup Email" classname="reg_landlord_email" time="4.343" assertions="1">
+    <testcase name="Abrir formulario de Signup Email" classname="reg_landlord_email" time="3.106" assertions="1">
 
     
     </testcase>
   
-    <testcase name="Comprobar que form no hace submit si hay campos vacíos" classname="reg_landlord_email" time="23.27" assertions="8">
+    <testcase name="Comprobar que form no hace submit si hay campos vacíos" classname="reg_landlord_email" time="23.48" assertions="8">
 
     
 
@@ -41,7 +41,7 @@
     
     </testcase>
   
-    <testcase name="Comprobar que Signup Email funciona" classname="reg_landlord_email" time="1.947" assertions="2">
+    <testcase name="Comprobar que Signup Email funciona" classname="reg_landlord_email" time="4.407" assertions="2">
 
     
 
